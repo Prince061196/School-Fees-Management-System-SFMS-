@@ -1,0 +1,166 @@
+* {
+    margin: auto;
+    }
+    .logo{ 
+        width: 140px;
+        height: 75px;
+        border-radius: 5px;
+        position: absolute;
+        top: 5px;
+        right: 20px;
+      
+      
+    }
+    .mini{
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+        position: absolute;
+        top: 0;
+        left: 20px 
+    }
+    
+    body {
+       
+        margin:auto;
+        min-height: 100vh;
+        flex-direction: column;
+        display: flex;
+        font-family: 'Consolas',Verdana, Geneva, 'Tahoma', sans-serif;  
+    }
+    .slide{
+        background-image: url('/images/bmg2.png');
+        background-position:center;
+        /* background-color: lightslategray; */
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-repeat: no-repeat;
+        animation: bgChange 50s linear infinite;
+    
+    }
+    @keyframes bgChange{
+        0%{
+            background-image: url('/images/bmg2.png');
+        }
+        20%{
+            background-image: url('/images/bmg3.png');
+        }
+        40%{
+            background-image: url('/images/bmg4.png');
+        }
+        60%{
+            background-image: url('/images/bmg5.png');
+        }
+        80%{
+            background-image: url('/images/bmg6.png');
+        }
+        90%{
+            background-image: url('/images/bmg4.png');
+        }
+        100%{
+            background-image: url('/images/bmg1.png');
+        }
+    }
+    
+    .index-a {
+        color:blueviolet;
+        
+    }
+    
+    
+    .index-a:hover {
+        color: rgb(5, 145, 145);
+    }
+    .index-a:link{text-decoration: none;}
+     #navbar{ 
+        text-align: center;
+        font-weight: bold;
+        top: 0;
+      
+       
+     }
+        
+     .top-right{
+        text-align: center;
+    background-color: whitesmoke;
+    justify-content: center;
+    width: 1345px;
+    height: 70px;
+    display: inline-block;    
+    padding: 10px;
+     
+     }
+     
+    #navbar a {
+        text-decoration: none;
+        list-style: none;
+        font-size: 18px;
+        margin: 20px;
+        text-align:center;
+        top: 0;  
+            
+    }
+    
+    nav, footer{flex-shrink: 0;}
+    
+    section{
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .motto{
+        padding: auto;
+        margin:0;
+        font-family: 'Consolas',Verdana, Geneva, 'Tahoma', sans-serif;
+        color: black;
+        
+        margin-left: 520px;
+        margin-right: 520px;
+        font-size: 12px;
+        background-color: whitesmoke;
+        -moz-animation: marquee 5s linear infinite alternate-reverse;
+        -webkit-animation: marquee 5s linear infinite alternate-reverse;
+        animation: marquee 8s linear infinite alternate-reverse;
+    
+    }
+    @-moz-keyframes marquee{
+        0%{transform: translateX(100%);}
+        100%{transform: translateX(-100%);}
+    }
+    @-webkit-keyframes marquee{
+        0%{transform: translateX(100%);}
+        100%{transform: translateX(-100%);}
+    }
+    @keyframes marquee{
+        0%{-moz-transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            animation: translateX(100%);
+        }
+        100%{
+            -moz-transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+    
+    }
+    #foot{
+        background-color: whitesmoke;
+    min-width: 50vw;
+    height: 10vh;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    font-family:  'Consolas',Verdana, Geneva, 'Tahoma', sans-serif;
+    font-weight: 500;
+    }
+    footer{ 
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        bottom: 0;
+    }

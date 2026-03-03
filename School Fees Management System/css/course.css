@@ -1,0 +1,100 @@
+
+
+
+*{
+ margin: auto;   
+ font-family:Sans-serif,Arial,Verdana, 'Helvetica';
+ font-size: 18px;
+}
+.h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+body{
+   
+    margin:auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   
+}
+nav{
+    background-color: rgb(158, 157, 157);
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+
+}
+ul li{
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.bgimg{
+    background-image: url(/images/bmg2.png);
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.offer1{
+    margin-top:10px;
+    display: flex;
+   flex-direction: row;
+    margin: 1px;
+   
+    
+}
+.offer2{
+   
+    background-color: rgb(68, 133, 172);
+    min-width: 80vb;
+    height: 80vh;
+    font-size: 12px;
+    text-decoration: dotted;
+    line-height: 1.6;
+   left: 0;
+   margin-top: 50px;
+   display: inline;
+ 
+}   
+.offer3{
+    background-color: rgb(128, 36, 36);
+    min-width: 80vb;
+    height: 40vh;
+    font-size: 12px;
+    text-decoration: dotted;
+    line-height: 1.6;
+ left: 0;
+ display: inline;
+}
+footer{flex-shrink: 0;}
+section{
+    flex-grow: 2;
+}
+
+#foot{
+    background-color: rgba(212, 209, 209, 0.726);
+    min-width: 50vw;
+    height: 10vh;
+    padding: 5px 0;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 500;
+    color: black;
+    position: fixed;
+}
+footer{ 
+   
+    display: flex;
+    flex-direction: row;
+    
+    bottom: 0px;
+    position: fixed;
+    
+  
+}

@@ -1,0 +1,144 @@
+
+
+/*.......................SIGN-UP PAGE..........................*/
+.body_signup{
+    background-color:lightslategray;
+}
+.logo_signup{
+    height: 65px;
+    border-radius: 2px;
+    margin-left: 100px;
+    padding: 5px;
+  
+    }
+    .signup{
+    background-color: white;
+    display:inline-block;
+    width:57vb;
+    height: 12vh;
+    padding-bottom: 20px;
+    border-radius: 4px;
+   
+    
+}
+
+#box{
+    background-color:#494d5f;
+    position: relative;
+    justify-content: center;
+    width: 350px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: white;
+    font-family:  'Consolas',Verdana, Geneva, 'Tahoma', sans-serif;
+    font-size: 12px;
+   font-weight: bold;
+}
+#text{
+    width: 91.5%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+#button{
+    background-color: #8458b3;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 250px;
+    font-size: 15px;
+    font-family:  'Consolas',Verdana, Geneva, 'Tahoma', sans-serif;
+  
+
+}
+#button:hover{
+    cursor: pointer;
+}
+.alink1{
+    color:white;
+    text-decoration: none;
+    
+}
+.alink1:hover{
+    color:#ff1d58;
+}
+.alink{
+    margin-top: -30px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>LOGIN PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.bodylog{
+    background-color: lightslategray;
+}
+
+.logo-in{ 
+    width: 140px;
+    height: 65px;
+    border-radius: 2px;
+    margin-left: 80px;
+    padding: 5px;
+  
+    }
+    .login{
+    background-color: white;
+    display:inline-block;
+    width:52.5vb;
+    height: 12vh;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+   
+#box_login{
+    background-color:#494d5f;
+    position: relative;
+    justify-content: center;
+    width: 320px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 125px;
+    border-radius: 5px;
+    color: white;
+    font-family:  'Consolas',Verdana, Geneva, 'Tahoma', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+#text_login{
+    width: 90.5%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+#button_login{
+    background-color: #8458b3;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 220px;
+    font-size: 15px;
+
+    font-family:  'Consolas',Verdana, Geneva, 'Tahoma', sans-serif;
+
+}
+#button_login:hover{
+    cursor: pointer;
+}
+.alink_login{
+    color:white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
+.alink_login:hover{
+    color:#ff1d58;
+}
+.link_login{
+margin-top: -30px;
+}
